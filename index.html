@@ -1,63 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-    <body>
-        <header id="main-header">
-            <div class="container">
-                <h1>Darius Lolong</h1>
-            </div>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
 
-        <nav id="navbar">
-            <div class="container">
-                <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
+        <nav class = "navbar">
+            <a href="#" style="--i:1"class="active" >Home</a>
+            <a href="#" style="--i:2">About</a>
+            <a href="#" style="--i:3">Skills</a>
+            <a href="#" style="--i:4">Portfolio</a>
+            <a href="#" style="--i:5">Contact</a>
         </nav>
 
-        <section id="showcase">
-        <div class="container">
-            <h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quisquam consequuntur eos ea ab sit illo at deserunt minus laboriosam? 
-            </h1>
-        </div>
-        </section>
-
-        <div class="container">
-            <section id="main">
-            <h1>Welcome</h1>
-            <p>
-                Hi! I'm Darius Lolong! I just started my journey as a Web Developer on December 12, 2022. Currently I am hired in an Australian Based Tech Company. 
-                Currently, I am studying and willing to learn. Below you can see lessons that I learned.
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello! It's Me!</span></h3>
+            <h1>Darius Lolong</h1>
+            <h3>And I'm <span class="text"></span></h3>
+            <p>I'm Beginner but Code Enthusiast.
+                <br>Not Expert but knowledgeable in HTML, CSS, and Handlebar Templates. And I created this from Scratch. 
+                Currently Rise-X trusted me to join their team as Configuration Engineer. Thank you Rise-X!
             </p>
-            
-            <p><a href="https://dariuslwebdev.github.io/Lesson1_HTML.github.io/">Lesson 1 - HTML</a></p>
-            <p><a href="https://dariuslwebdev.github.io/Lesson2_CSS.github.io/">Lesson 2 - CSS</a></p>
-            </section>
-
-            <section id="sidebar">
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam ipsum
-                eius saepe totam et voluptates, facilis culpa, debitis porro obcaecati
-                cumque itaque neque vero sint, voluptatem placeat expedita ab rem
-                voluptatum similique nobis nam. Animi mollitia maiores nulla nesciunt,
-                deleniti saepe nihil facere, minus unde blanditiis rem, reprehenderit
-                consequatur. Neque!
-            </p>
-            </section>
+            <div class="home-sci">
+                <a href="#" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-instagram'></i></a>
+                <a href="#" style="--i:9"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#" style="--i:10"><i class='bx bxl-tiktok'></i></a> 
+            </div>
+            <a href="#" class="btn-box">More About Me</a>
         </div>
+    <span class="home-imgHover"></span>
+    </section>
 
-        <footer id="main-footer">
-            <p>Copyright &copy; 2023 Darius.com</p>
-        </footer>
-    </body>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/profpic1.png">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Future Full Stack Web Developer!</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, perferendis minima. Illum molestias delectus magnam facere quam eos. Illo quia consectetur deserunt numquam optio eos, architecto dolore officiis suscipit voluptates. Praesentium eaque dignissimos laboriosam ad incidunt quam nostrum voluptatum natus dicta amet quo consequatur non corporis ipsa in voluptatem suscipit sit, nam unde debitis. Animi obcaecati autem eius totam illum voluptatem asperiores. Dignissimos sit enim maiores dolorem sint tempora aliquam dolores cumque numquam. Quos obcaecati dolorem molestias? Cupiditate reprehenderit sint ullam, nihil assumenda at alias, facilis iusto ut ad magni minus culpa iste ab dicta velit dolores? Eum, tenetur fugiat.
+            </p>
+
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bx-code' style='color:#00eeff'  ></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore atque voluptate non corrupti cumque molestias, aliquid cum saepe dicta velit.</p>
+                        <a href="#" class="read">Learn More</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-crop' style='color:#00eeff' ></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore atque voluptate non corrupti cumque molestias, aliquid cum saepe dicta velit.</p>
+                        <a href="#" class="read">Learn More</a>
+                    </div>
+                    <div>
+                        <i class='bx bxl-apple' style='color:#00eeff' ></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore atque voluptate non corrupti cumque molestias, aliquid cum saepe dicta velit.</p>
+                        <a href="#" class="read">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h1 class="sub-title">My <span>Skills</span></h1>
+
+    <section>
+        <div class="container2" id="skills">
+        <h1 class="heading1">Technical Skills</h1>
+            <div class="skill-box"><i class='bx bxl-html5' style='color:#c95d2e' ></i>
+                <span class="title">HTML</span>
+
+                <div class="skill-bar">
+                    <span class="skill-per html">
+                        <span class="tooltip">90%</span>
+                    </span>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="skill-box"><i class='bx bxl-css3' style='color:#147bbc' ></i>
+                <span class="title">CSS</span>
+
+                <div class="skill-bar">
+                    <span class="skill-per css">
+                        <span class="tooltip">70%</span>
+                    </span>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="skill-box"><i class='bx bxl-javascript' style='color:#b0bc1e' ></i>
+                <span class="title">JavaScript</span>
+    
+                <div class="skill-bar">
+                    <span class="skill-per javascript">
+                        <span class="tooltip">50%</span>
+                    </span>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="skill-box"><i class='bx bxl-python' style='color:#c32ec9' ></i>
+                <span class="title">Python</span>
+    
+                <div class="skill-bar">
+                    <span class="skill-per python">
+                        <span class="tooltip">40%</span>
+                    </span>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="skill-box"><i class='bx bxl-react' style='color:#69bcbc' ></i>
+                <span class="title">React</span>
+    
+                <div class="skill-bar">
+                    <span class="skill-per react">
+                        <span class="tooltip">30%</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    
+        
+        <div class="container1">
+            <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-bars">
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Creativity</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">80%</div>
+                    <div class="text">Communication</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">85%</div>
+                    <div class="text">Problem Solving</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">80%</div>
+                    <div class="text">Team Work</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="portfolio" id="project">
+            <div class="main-text" id="project">
+                <h2>Latest<span>Project</span></h2>
+
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="project.jpg">
+                        <div class="layer">
+                            <h5>UI/UX Design</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque adipisci eius ipsum tempora? Quaerat rem maiores earum dolor, animi provident? Obcaecati temporibus explicabo omnis quam quibusdam voluptates fugiat ad ipsam maiores. Doloremque incidunt voluptas consectetur ipsam repellendus aut illum fugiat ratione eum et eveniet, sed reiciendis officia? Velit, atque reiciendis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <script src="main.js"></script>
+</body>
 </html>
